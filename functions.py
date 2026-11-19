@@ -12,7 +12,7 @@ Base = declarative_base()
 
 
 class Todo(Base):
-    __tablename__ = "todos"
+    __tablename__ = "todo"
 
     id = Column(Integer, primary_key=True)
     title = Column(String, nullable=False)
